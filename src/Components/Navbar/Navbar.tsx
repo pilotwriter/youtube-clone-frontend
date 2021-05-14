@@ -1,10 +1,13 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import './Navbar.css'
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import AddIcon from '@material-ui/icons/Add';
+
 const Navbar: React.FC = () => {
+    const [loggedIn,setLoggedIn] =  useState(false);
+
     return (
         <div className="navbarContainer">
             <div className="navbarLeft">
@@ -22,7 +25,7 @@ const Navbar: React.FC = () => {
                 <button id="addVideoButton">
                 <AddIcon id="addVideoIcon"/>
                 </button>
-                <button id="profilePic"></button>
+                {loggedIn ?<button id="profilePic"></button> : (<button id="signInButton">Sign In</button>)}
             </div>
         </div>
     )

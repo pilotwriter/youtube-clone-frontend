@@ -1,0 +1,27 @@
+.signInPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signInPage .singInContainer{
+    box-shadow: -5px 5px darkgray;
+    border :2px solid grey;
+    width: 600px;
+    height: 500px;
+}
+.signInPage .singInContainer .signInTop{
+    background-color: white;
+    border: none;
+    text-align: center ;
+
+} 
+.signInPage .singInContainer .signInBody{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100% - 100px);
+}
