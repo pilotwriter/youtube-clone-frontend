@@ -1,0 +1,109 @@
+.navbarContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/* LEFT SIDE OF THE NAVBAR */
+.navbarLeft{
+    flex:33%;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navbarLeft #youtubeIcon{
+    font-size: 40px;
+
+}
+.navbarLeft #navbarMenuIcon{
+    font-size: 40px;
+}
+/* YOUTUBE TEXT */
+.navbarLeft h1{
+    font-family: Impact;
+    color: black;
+    font-size: 20px;
+    font-weight: 30;
+}
+/* TOGGLE BUTTON STYLE */
+.navbarLeft #sidebarToggle{
+    color: gray;
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.navbarLeft #sidebarToggle:hover{
+  cursor: pointer;
+}
+.navbarLeft #sidebarToggle:focus{
+    outline: none;
+    background-color: lightgray;    
+  }
+/* CENTER */
+.navbarCenter{
+    flex:33%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarCenter #searchBar{
+    width: 90%;
+    height: 35px;
+}
+.navbarCenter #searchButton{
+    width: 8%;  
+    height: 40px;
+    color: #f5f5f5;
+    border: none;
+    border: 1px solid lightgrey;
+    border-left: none;
+
+}
+/* RIGHT SIDE */
+.navbarRight{
+    flex:33%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+/* CREATE VIDEO BUTTON */
+.navbarRight #addVideoButton{
+    background-color: transparent;
+    color:grey;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.navbarRight #addVideoButton:hover{
+    cursor: pointer;
+  }
+.navbarRight #addVideoButton:focus{
+    outline: none;
+    background-color: lightgray;    
+    }
+    /* PROFILE PICTURE BUTTON */
+.navbarRight #profilePic{
+    background-color: black;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.navbarRight #profilePic:hover{
+    cursor: pointer;
+  }
+.navbarRight #profilePic:focus{
+    outline: none;
+    background-color: lightgray;    
+    }
