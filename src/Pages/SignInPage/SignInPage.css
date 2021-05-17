@@ -1,6 +1,7 @@
 .signInPage{
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    margin-top: 100px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -12,6 +13,10 @@
     border :2px solid grey;
     width: 600px;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .signInPage .singInContainer .signInTop{
     background-color: white;
@@ -22,6 +27,29 @@
 .signInPage .singInContainer .signInBody{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     height: calc(100% - 100px);
+    flex-direction: column;
 }
+/* INPUT FOR MARGIN */
+.signInPage .singInContainer .signInBody input{
+    margin-bottom: 100px;
+    width:250px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    
+}
+#bttn{
+    width: 200px;
+    height: 60px;
+    border:none;
+    border-radius: 50px;
+    background-color: lightblue;
+    margin: 10px;
+    color:black;
+
+}
+#bttn:hover{
+    cursor: pointer;
+} 
