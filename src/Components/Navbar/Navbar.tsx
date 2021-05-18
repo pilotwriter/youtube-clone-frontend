@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
                 <button id="sidebarToggle">
                 <MenuIcon id="navbarMenuIcon"/>
                 </button>
-                <YouTubeIcon id="youtubeIcon" style={{color:"red"}}/>
+                <YouTubeIcon id="youtubeIcon" style={{color:"red"}} />
                 <h1>YouTube</h1>
             </div>
             <div className="navbarCenter">

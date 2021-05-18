@@ -1,0 +1,33 @@
+.rows{
+    height: auto;
+    padding: 0;
+
+}
+.row{
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto,Arial, sans-serif;
+
+}
+.active{
+    color:red
+}
+.row:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+ 
+#iconContainer{
+    flex: 30%;
+
+}
+
+#titleContainer{
+    flex: 70%;
+}
